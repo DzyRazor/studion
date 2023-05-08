@@ -119,9 +119,25 @@ ul {
 }
 
 .slide__copy h2 span {
-    display: block;
+   display: block; 
 }
 
-.slide__copy h6 span { 
-    display: block;
+.btn {
+    cursor: pointer;
+    padding:1rem 2.5em; 
+    border: 0.125rem solid #fff;
+    border-radius: 5rem;
+    color: var(--color-primary);
+    background: unset;
+    font-size: 0.9375rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.3s all ease;
+}
+
+.btn:hover {
+    border-color: var(--color-primary);
+    background-color: var(--color-primary);
+    color: #fff;
+
 }
