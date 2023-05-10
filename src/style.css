@@ -16,6 +16,11 @@ body {
     padding-top: 7.75rem;
 }
 
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
 ul {
     display: flex;
     list-style: none;
@@ -139,5 +144,4 @@ ul {
     border-color: var(--color-primary);
     background-color: var(--color-primary);
     color: #fff;
-
 }
